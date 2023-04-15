@@ -1,0 +1,250 @@
+
+
+#icone{
+
+ 
+  
+    border-radius: 29px;
+   }
+   #button{
+  
+    width: 55px;
+    height: 59px;
+    border: 5px solid rgb(167, 12, 214);
+    border-radius: 29px;
+   }
+   .icon{
+    display: flex;
+   
+   justify-content: center;
+    margin-top: 88px;
+   }
+   
+   
+   
+   #papa {
+         
+          display: flex;   /*rendre flexible les elements de de larticle*/
+          flex-wrap: wrap;/* pour definir le comportement des element sil rencontre quelque choses */
+          height: 402px;/*largeur */
+          width: auto;/* longueur*/
+          justify-content: center;/* ajuster le contenue au centre */
+        }
+        
+  img{
+      width:100%;/* longueur de limage  */
+      height:100%; /* largeur de limage */
+     
+      position: relative; /* position de limage */
+      left: 0%;
+      margin-top: 0%; /*pour eliminer la marge au dessus de limage */
+  
+  }
+  
+        h2 {
+          color: rgb(245, 255, 240); /* couleur du text*/
+          text-align: center;/* aligner le text au centre */
+          margin-bottom: -0.1%; /* marge au dessous du text*/
+          font-weight:bold;/* pour le poids du texte */
+          font-size: 50px; /* pour la taille du texte */
+  
+        }
+      #body {
+          background-color:#a8cc31;/* arriere plan du body*/
+          justify-content: center; /* ajuster le contenue du body au centre */
+          margin-left: 0%;/* marge a gache */
+          margin-right: 0%; /* marge a droite */
+          margin-top: 0%;/*marge au dessous*/
+          width: 100%;
+          height: 100%;
+        }
+          
+        .zone
+        {
+            font-size: 25px;
+            margin-left: 10px;
+            
+            margin-right: 10px;
+            height: 30px;
+        }
+        
+        #p{ 
+          color: #0b24fb;/* couleur du texte */
+          font-size: 35px;/* */
+          font-weight: bold;
+          margin-bottom: -100px;
+          writing-mode:vertical-rl;/* mettre le texte en vertical */
+         
+         margin-top: 10%;
+         
+        }
+        
+        #dic{
+          width: 920px;
+          height: 230px;
+          border: 3px solid rgb(32, 5, 5);/*la bordure des blocs */
+          border-radius: 10px;
+          margin: 5px;
+          background-color:#fed649;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+  
+     
+          
+        }
+        #prenom, #nom, #email, #numero{
+          margin:5px;
+          margin-left: 2px;
+          border-radius: 9px;
+          color:black;
+          font-size: 20px;
+          width: 400px;
+          height: 40px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          outline: none;
+          background: none;
+          background-color: white;
+  
+        }
+        #box{
+  
+        margin-left: 25px;
+          
+        
+        }
+        label{
+          color: rgb(3, 0, 0);
+          font-size: 23px;
+          font-weight: bold;
+      }
+      
+      #message{
+        width: 400px;
+  
+          }
+     
+      #envoyer{
+  
+          width: 100px;
+          height: 30px;
+         margin-left: 280px;
+  
+        }
+  
+        #formulaire{
+          display: flex;
+          flex-wrap: wrap;
+          position: absolute;
+          justify-content: center;
+       
+        }
+        #apparition{
+          border: solid black 2px;
+          border-radius: 10px;
+          width: 420px;
+          height: 380px;
+          background-color: aliceblue;
+          margin-top: 40px;
+        }
+  
+  
+  @media( max-width:1519px){
+  
+    #dic{
+      width: 520px;
+      height: 180px;
+      border: 2px solid rgb(32, 5, 5);/*la bordure des blocs */
+      border-radius: 8px;
+      margin: 4px;
+     
+      font-size: 18px;
+       }
+   }
+       @media( max-width:1700px){
+  
+        #dic{
+          width: 620px;
+          height: 180px;
+          border: 2px solid rgb(32, 5, 5);/*la bordure des blocs */
+          border-radius: 8px;
+          margin: 4px;
+         
+          font-size: 18px;
+           }
+  
+  
+    
+  }
+  
+  @media( max-width:1265px){
+  
+    #dic{
+      width: 450px;
+      height: 175px;
+    
+      border-radius: 8px;
+      margin: 4px;
+     
+      font-size: 12px;
+       }
+  
+  
+  
+  }
+  
+  
+  @media( max-width:923px){
+  
+    #dic{
+      width: 350px;
+      height: 175px;
+      
+      border-radius: 8px;
+      margin: 3px;
+     
+      font-size: 8px;
+       }
+  
+  
+  
+  
+  
+  #p{ 
+  
+    font-size: 25px;/* */
+   margin-top: 15%;
+   
+  }
+  
+  h2 {
+   
+    font-size: 30px;
+  
+  }
+  
+  
+  }
+  
+  @media( max-width:723px){
+  
+    #dic{
+      width: 350px;
+      height: 175px;
+      
+      border-radius: 8px;
+      margin: 3px;
+     
+      font-size: 8px;
+       }
+       .icon{
+    
+        margin-top: 350px;
+       }
+  
+   }
+  
+   
+  
